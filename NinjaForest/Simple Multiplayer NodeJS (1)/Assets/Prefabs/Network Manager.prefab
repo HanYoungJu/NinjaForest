@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010322164812}
+  m_IsPrefabAsset: 1
+--- !u!1 &1000010322164812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000010103306070}
+  - component: {fileID: 114000014098334418}
+  - component: {fileID: 114000011500049566}
+  - component: {fileID: 114000010400414242}
+  m_Layer: 0
+  m_Name: Network Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010103306070
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010322164812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010400414242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010322164812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799ae02b3116c4430b978f47aacd1d68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114000011500049566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010322164812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479b63cee56c64b8899ac04c2ac1ef28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1000013500827612, guid: f2208e186b3894f39b2d5efeb20d6f4d, type: 2}
+  spawnPoint: {fileID: 1000013066951950, guid: 1286f7f5e90364316a73873a8d40c30f, type: 2}
+  numberOfEnemies: 4
+  enemySpawnPoints: []
+--- !u!114 &114000014098334418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010322164812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95260bb3afc2e466f8dfd98733a41c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  socket: {fileID: 0}
+  playerNameInput: {fileID: 0}
+  Chara_4Hero: {fileID: 1446535677835012, guid: f85c4948bfaac4e48b32c1254bdec6b8,
+    type: 2}
+  chat1: {fileID: 0}
+  chat2: {fileID: 0}
+  chat3: {fileID: 0}
+  chat4: {fileID: 0}
+  chat5: {fileID: 0}
+  chat6: {fileID: 0}
+  chat7: {fileID: 0}
+  chat8: {fileID: 0}
+  chat9: {fileID: 0}
+  chat10: {fileID: 0}
+  chat11: {fileID: 0}
+  chat12: {fileID: 0}
+  chat13: {fileID: 0}
+  chat14: {fileID: 0}
+  chat15: {fileID: 0}
+  textInput: {fileID: 0}
